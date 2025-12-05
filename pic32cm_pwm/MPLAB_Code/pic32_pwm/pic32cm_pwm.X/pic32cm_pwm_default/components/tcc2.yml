@@ -1,0 +1,401 @@
+configVersion: 1.0.0
+componentName: tcc2
+coreVersion: 5.8.2
+device: PIC32CM1216MC00048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: tcc2
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.6
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: tcc2
+          x: '171'
+          y: '368'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    INTR_PWM_FAULT:
+      attributes:
+        id: INTR_PWM_FAULT
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_OTHER_IRQn
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_CALLBACK_API:
+      attributes:
+        id: PWM_CALLBACK_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWMCallbackRegister
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_GET_PERIOD_API:
+      attributes:
+        id: PWM_GET_PERIOD_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWM16bitPeriodGet
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_OUTPUT_DISABLE_API:
+      attributes:
+        id: PWM_OUTPUT_DISABLE_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWMPatternSet
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_OUTPUT_ENABLE_API:
+      attributes:
+        id: PWM_OUTPUT_ENABLE_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWMPatternSet
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_PATTERN_MASK:
+      attributes:
+        id: PWM_PATTERN_MASK
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: '119'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PWM_PH_MASK:
+      attributes:
+        id: PWM_PH_MASK
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: '7'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PWM_PH_U:
+      attributes:
+        id: PWM_PH_U
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2CHANNEL0
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_PH_V:
+      attributes:
+        id: PWM_PH_V
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2CHANNEL1
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_PH_W:
+      attributes:
+        id: PWM_PH_W
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2CHANNEL2
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_SET_DUTY_API:
+      attributes:
+        id: PWM_SET_DUTY_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWM16bitDutySet
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_START_API:
+      attributes:
+        id: PWM_START_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWMStart
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_STOP_API:
+      attributes:
+        id: PWM_STOP_API
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: TCC2_PWMStop
+          type: Dynamic
+        type: Values
+      type: String
+    TCC_0_WAVE_POL:
+      attributes:
+        id: TCC_0_WAVE_POL
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TCC_0_WAVE_POL_NPWM:
+      attributes:
+        id: TCC_0_WAVE_POL_NPWM
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TCC_1_WAVE_POL:
+      attributes:
+        id: TCC_1_WAVE_POL
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TCC_EVCTRL_MCEO_1:
+      attributes:
+        id: TCC_EVCTRL_MCEO_1
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCC_INTENSET_MC_0:
+      attributes:
+        id: TCC_INTENSET_MC_0
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCC_INTENSET_MC_1:
+      attributes:
+        id: TCC_INTENSET_MC_1
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCC_INTENSET_OVF:
+      attributes:
+        id: TCC_INTENSET_OVF
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TCC_MODULE_FREQUENCY:
+      attributes:
+        id: TCC_MODULE_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC_PER_PER:
+      attributes:
+        id: TCC_PER_PER
+      children:
+      - children:
+        - attributes:
+            value: '100'
+          type: User
+        type: Values
+      type: Integer
+    TCC_PWM_INTERRUPT_MODE:
+      attributes:
+        id: TCC_PWM_INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TCC_RAMP_CH1_DUTY:
+      attributes:
+        id: TCC_RAMP_CH1_DUTY
+      children:
+      - children:
+        - attributes:
+            id: label
+          children:
+          - type: Value
+            value: Cycle A Duty Value (CC0 Buffer)
+          type: String
+        type: Attributes
+      - children:
+        - attributes:
+            id: tcc2
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC_RAMP_CH2_DUTY:
+      attributes:
+        id: TCC_RAMP_CH2_DUTY
+      children:
+      - children:
+        - attributes:
+            id: label
+          children:
+          - type: Value
+            value: Cycle B Duty Value (CC0)
+          type: String
+        type: Attributes
+      - children:
+        - attributes:
+            id: tcc2
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC_RAMP_CYCLEA_PERIOD:
+      attributes:
+        id: TCC_RAMP_CYCLEA_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: label
+          children:
+          - type: Value
+            value: Cycle A Period Value (PER)
+          type: String
+        type: Attributes
+      - children:
+        - attributes:
+            id: tcc2
+            value: '100'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC_RAMP_CYCLEB_PERIOD:
+      attributes:
+        id: TCC_RAMP_CYCLEB_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: '100'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TCC_TIMER_PERIOD:
+      attributes:
+        id: TCC_TIMER_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: tcc2
+            value: '47999'
+          type: Dynamic
+        type: Values
+      type: Long
+    TCC_WAVE_CIPEREN:
+      attributes:
+        id: TCC_WAVE_CIPEREN
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCC_WAVE_RAMP:
+      attributes:
+        id: TCC_WAVE_RAMP
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TCC_WAVE_WAVEGEN:
+      attributes:
+        id: TCC_WAVE_WAVEGEN
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+  userData: {}

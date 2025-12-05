@@ -1,0 +1,39 @@
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
+1,PA00,PP_OUT_A,TCC2_WO0,Digital,High Impedance,n/a,No,No,NORMAL
+2,PA01,PP_OUT_B,TCC2_WO1,Digital,High Impedance,n/a,No,No,NORMAL
+3,PA02,MCU_DAC,DAC_VOUT,Analog,High Impedance,n/a,,,NORMAL
+4,PA03,,Available,,,,,,NORMAL
+7,PB08,ACO_MCU,ADC1_AIN4,Analog,High Impedance,n/a,,,NORMAL
+8,PB09,I_Bat_MCU,ADC0_AIN3,Analog,High Impedance,n/a,,,NORMAL
+9,PA04,ACI_MCU,ADC0_AIN4,Analog,High Impedance,n/a,,,NORMAL
+10,PA05,Flyback_RX,SERCOM0_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+11,PA06,AC_Current_MCU,ADC0_AIN6,Analog,High Impedance,n/a,,,NORMAL
+12,PA07,PP_PulseCur_MCU,ADC0_AIN7,Analog,High Impedance,n/a,,,NORMAL
+13,PA08,S1_inv,TCC0_WO0,Digital,In/Out,Low,,,NORMAL
+14,PA09,S3_inv,TCC0_WO1,Digital,High Impedance,n/a,No,No,NORMAL
+15,PA10,Flyback_TX,SERCOM0_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
+16,PA11,PP_Vol_MCU,ADC0_AIN11,Analog,High Impedance,n/a,,,NORMAL
+19,PB10,LED_D9,GPIO,Digital,In/Out,Low,,,NORMAL
+20,PB11,LED_D7,GPIO,Digital,In/Out,Low,,,NORMAL
+21,PA12,LED_D8,GPIO,Digital,In/Out,Low,,,NORMAL
+22,PA13,AC_COMP1,AC_CMP1,Digital,High Impedance,n/a,No,No,NORMAL
+23,PA14,,GCLK_IO0,Digital,High Impedance,n/a,No,No,NORMAL
+24,PA15,test_EIC_pin,EIC_EXTINT15,Digital,High Impedance,n/a,No,No,NORMAL
+25,PA16,inv_FAULT_SD,GPIO,Digital,In/Out,Low,,,NORMAL
+26,PA17,RX,SERCOM1_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+27,PA18,TX,SERCOM1_PAD2,Digital,High Impedance,n/a,No,No,NORMAL
+28,PA19,inv_FAN,GPIO,Digital,In/Out,Low,,,NORMAL
+29,PA20,inv_nSYS_FLT,GPIO,Digital,In/Out,Low,,,NORMAL
+30,PA21,inv_FAULT_CLR,GPIO,Digital,In/Out,Low,,,NORMAL
+31,PA22,S4_inv,TCC0_WO4,Digital,High Impedance,n/a,No,No,NORMAL
+32,PA23,S2_inv,TCC0_WO5,Digital,High Impedance,n/a,No,No,NORMAL
+33,PA24,Flyback_MISC,GPIO,Digital,In/Out,Low,,,NORMAL
+34,PA25,,Available,,,,,,NORMAL
+37,PB22,A1_bypass_relay,GPIO,Digital,In/Out,Low,,,NORMAL
+38,PB23,A2_grid_connect,GPIO,Digital,In/Out,Low,,,NORMAL
+39,PA27,Flyback_EN,GPIO,Digital,In/Out,Low,,,NORMAL
+41,PA28,PP_ENB,GPIO,Digital,In/Out,Low,,,NORMAL
+45,PA30,,Available,,,,,,NORMAL
+46,PA31,,Available,,,,,,NORMAL
+47,PB02,,Available,,,,,,NORMAL
+48,PB03,Vbat_voltage,ADC1_AIN3,Analog,High Impedance,n/a,,,NORMAL
